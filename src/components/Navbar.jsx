@@ -3,7 +3,7 @@ export default function Navbar() {
     <nav style={styles.nav}>
       <span style={styles.brand}>Ian Janrick</span>
       <ul style={styles.links}>
-        {[['About', 'hero'], ['Skills', 'skills'], ['Projects', 'projects'], ['Reflection', 'reflection']].map(([label, id]) => (
+        {[['About me', 'hero'], ['Skills', 'skills'], ['Projects', 'projects'], ['Reflection', 'reflection']].map(([label, id]) => (
           <li key={id}>
             <a href={`#${id}`} style={styles.link}>{label}</a>
           </li>
